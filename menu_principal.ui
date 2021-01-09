@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_suprema">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>621</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Linha Suprema</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_pc2fv_suprema">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>105</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Porta correr
+ 2 folhas vidro</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_pc3fv_suprema">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>105</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Porta correr
+3 folhas vidro</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_pc4fv_suprema">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>105</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Porta correr
+ 4 folhas vidro</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_pc4fvma_suprema">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>140</y>
+       <width>105</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Porta correr 
+4 folhas MA vidro</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_pc6fv_suprema">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>180</y>
+       <width>105</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Porta correr 
+6 folhas vidro</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_pc8fv_suprema">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>220</y>
+       <width>105</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Porta correr 
+8 folhas vidro</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_jc2fv_suprema">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>20</y>
+       <width>105</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Janela correr
+ 2 folhas vidro</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_jc3fv_suprema">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>60</y>
+       <width>105</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Janela correr
+3 folhas vidro</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_jc4fv_suprema">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>100</y>
+       <width>105</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Janela correr
+ 4 folhas vidro</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_jc4fvma_suprema">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>140</y>
+       <width>105</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Janela correr 
+4 folhas MA vidro</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_jc6fv_suprema">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>180</y>
+       <width>105</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Janela correr 
+6 folhas vidro</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_jc8fv_suprema">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>220</y>
+       <width>105</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Janela correr 
+8 folhas vidro</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
