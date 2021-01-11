@@ -14,11 +14,26 @@ from relatorio import Ui_relatorio
 class Ui_Porta_correr_2fv_suprema(object):
 
     def abrir_relatorio(self):
-        self.window = QtWidgets.QMainWindow()
-        self.relatorio = Ui_relatorio()
-        self.relatorio.setupUi(self.window)
-        self.window.show()
+        arquivo = open('Pedido.txt', 'r')
+        for line in arquivo:
+            print(line, end='')
 
+        # self.window = QtWidgets.QMainWindow()
+        # self.relatorio = Ui_relatorio()
+        # self.relatorio.setupUi(self.window)
+        # self.window.show()
+
+    def bt_limpar(self):
+        self.lineEdit_largura.setText("")
+        self.lineEdit_altura.setText("")
+        self.lineEdit_quantidade.setText("")
+
+    def bt_voltar(self):
+        pass
+
+    def bt_inserir(self):
+        pass
+        
     def setupUi(self, Porta_correr_2fv_suprema):
         Porta_correr_2fv_suprema.setObjectName("Porta_correr_2fv_suprema")
         Porta_correr_2fv_suprema.resize(296, 173)
@@ -69,8 +84,11 @@ class Ui_Porta_correr_2fv_suprema(object):
         Porta_correr_2fv_suprema.setTabOrder(self.pushButton_limpar, self.pushButton_voltar)
         Porta_correr_2fv_suprema.setTabOrder(self.pushButton_voltar, self.pushButton_relatorio)
 
-        self.pushButton_relatorio.clicked.connect(self.abrir_relatorio)
 
+        ### AÇÕES DOS BOTÕES ###
+        self.pushButton_limpar.clicked.connect(self.bt_limpar)
+        self.pushButton_voltar.clicked.connect(Porta_correr_2fv_suprema.hide)
+        self.pushButton_relatorio.clicked.connect(self.abrir_relatorio)
     def retranslateUi(self, Porta_correr_2fv_suprema):
         _translate = QtCore.QCoreApplication.translate
         Porta_correr_2fv_suprema.setWindowTitle(_translate("Porta_correr_2fv_suprema", "Porta de correr 2 folhas com vidro - Linha Suprema"))
